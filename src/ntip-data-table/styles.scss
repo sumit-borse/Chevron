@@ -1,0 +1,77 @@
+@import '@servicenow/sass-kit/host';
+
+.table-container {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.filterText {
+    // width: 80%;
+    border: 1px solid lightgray;
+    padding: 5px;
+    outline: none;
+}
+
+.search {
+    margin-left: 5px;
+    width: 10%;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar i {
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid black 2px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.rightBorder {
+    border-right: solid black 2px;
+}
+
+th {
+    background-color: rgb(176, 180, 179);
+    color: white;
+}
+
+.pagination-bar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainDiv {
+    padding: 1%;
+}
+
+.tableDiv {
+    border: solid 1px black;
+    padding: 1%;
+}
+
+.emptyRow {
+    text-align: center;
+}
+
+.paginationElement {
+    margin-left: 5px;
+}
